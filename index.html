@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>unicode_converter</title>
+		<title>Item Generator</title>
    	 	<meta charset="UTF-8">
    	 	<meta name="viewport" content="width=device-width, user-scalable=no">
     	<script type="text/javascript" src="main.js"></script>
@@ -11,9 +11,23 @@
 		<h1 id="title">Item Generator</h1><br>
 		<div id="sakusya">Created by:<a href="https://twitter.com/Button501?s=09" >@Button501</a></div><br>
 		<form id="fm" name="fm">
-			<div id="input_div" >
-				<textarea id="input"></textarea>
-			</div><br/>
+			<div id="identifier_div" >
+                <p>Identifier</p>
+                <input type="text" id="identifier">
+            </div>
+            <div id="Category_div" >
+                <p>Category</p>
+				<input type="text" id="Category">
+            </div>
+            <div id="icon_div" >
+                <p>Icon</p>
+				<input type="text" id="Icon">
+            </div>
+            <div id="animation_div" >
+                <p>use_animation</p>
+				<input type="text" id="animation">
+            </div>
+            <br/>
 			<div id="convert_div">
 				<input type="button" id="convert" onclick="make();" value="変換" />
 				<input type="button" id="convert" onclick="copy();" value="コピー" />
