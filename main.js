@@ -52,15 +52,3 @@ function copy() {
 		alert("コピーしました( 'ω')");
 	}
 }
-
-(function($){
-    $(function(){
-        var bpX = 0;
-        var bpY = 0;
-        setInterval(function(){
-            bpX += 0;
-            bpY += +0.5;
-            $('body').css('background-position', bpX+'px '+bpY+'px')
-        })
-    });
-})(jQuery);
